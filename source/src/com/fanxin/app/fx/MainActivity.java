@@ -66,7 +66,7 @@ public class MainActivity extends BaseActivity {
     protected static final String TAG = "MainActivity";
 
     private Fragment[] fragments;
-    public FragmentCoversation homefragment;
+    public  FragmentCoversation homefragment;
     private FragmentFriends contactlistfragment;
     private FragmentFind findfragment;
     private FragmentProfile profilefragment;
