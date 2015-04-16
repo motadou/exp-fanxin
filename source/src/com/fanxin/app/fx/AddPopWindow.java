@@ -16,14 +16,12 @@ import android.widget.RelativeLayout;
 
  
 public class AddPopWindow extends PopupWindow {
-    private View conentView;
+    //private View conentView;
 
-   
 	@SuppressLint("InflateParams")
 	public AddPopWindow(final Activity context) {
-        LayoutInflater inflater = (LayoutInflater) context
-                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        conentView = inflater.inflate(R.layout.popupwindow_add, null);
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View conentView = inflater.inflate(R.layout.popupwindow_add, null);
  
         // 设置SelectPicPopupWindow的View
         this.setContentView(conentView);
